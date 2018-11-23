@@ -1,4 +1,4 @@
 package com.bevix.sysnchronousPush.dao;
 
-public class UserDao {
+public interface UserDao {
 }

@@ -18,8 +18,8 @@ import java.util.Map;
 @Controller
 @RequestMapping("/v1")
 public class UserController {
-    @Autowired
-    UserController userController;
+//    @Autowired
+//    UserController userController;
 
     @RequestMapping(value = "/userlist", method = RequestMethod.GET )
     @ResponseBody

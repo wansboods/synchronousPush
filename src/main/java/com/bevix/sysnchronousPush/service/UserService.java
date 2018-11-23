@@ -6,7 +6,7 @@ import com.bevix.sysnchronousPush.dao.UserDao;
 import org.springframework.stereotype.Service;
 
 @Service
-public class UserService  extends BaseService<UserDao> {
+public class UserService{
 
 
 }

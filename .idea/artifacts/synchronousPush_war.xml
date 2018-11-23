@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="synchronousPush:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="synchronousPush.war">
+      <element id="artifact" artifact-name="synchronousPush:war exploded" />
+    </root>
+  </artifact>
+</component>
