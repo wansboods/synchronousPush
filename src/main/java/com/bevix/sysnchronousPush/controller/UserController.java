@@ -24,6 +24,8 @@ public class UserController {
     @RequestMapping(value = "/userlist", method = RequestMethod.GET )
     @ResponseBody
     private Map<String,Object> getUserList(HttpServletRequest request ){
+
+        System.out.print( "-----------------------------------------" );
         Map<String,Object> modelMap = new HashMap<String,Object>();
         modelMap.put( "success", true );
         modelMap.put( "shopList", "www" );
