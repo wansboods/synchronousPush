@@ -18,6 +18,14 @@
     <!-- 开启SpringMVC注解模式 -->
     <mvc:annotation-driven/>
 
+    <!--这里是自定义的swapper2配置-->
+    <bean class="com.bevix.sysnchronousPush.swagger2.SwaggerConfig" id="swagger2Config"/>
+    <!--当然你也可以使用默认的swagger2配置-->
+    <!--<bean class="springfox.documentation.swagger2.configuration.Swagger2DocumentationConfiguration" id="swagger2Config"/>-->
+    <mvc:resources location="classpath:/META-INF/resources/" mapping="swagger-ui.html"/>
+    <mvc:resources location="classpath:/META-INF/resources/webjars/" mapping="/webjars/**"/>
+
+
 
     <!-- 静态资源默认servlet配置 -->
     <mvc:default-servlet-handler/>
