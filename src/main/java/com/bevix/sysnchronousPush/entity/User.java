@@ -8,7 +8,9 @@ import lombok.*;
 @EqualsAndHashCode( of = "id")
 @ToString
 public class User {
-    private Integer id;
-    private String name;
+    private String id;
+    private String ip;//用户的id
+    private String seeTime;//用户访问的时间
+    private int seeCount;//用户访问的次数
 
 }
